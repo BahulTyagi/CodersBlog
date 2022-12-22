@@ -1,9 +1,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:flex-start;
   align-items: center;
-  padding: 6rem;
+  padding: 3rem;
   min-height: 100vh;
 }
 
@@ -275,4 +275,28 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+
+/* MY STYLES ARE HERE */
+
+.mainnav ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.mainnav ul li{
+  margin: 0 23px;
+  font-weight: bold;
+  
+}
+
+.blogItem{
+  margin-top: 45px;
+}
+
+.blogs{
+  margin-top: 30px;
 }
